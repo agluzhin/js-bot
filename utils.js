@@ -11,7 +11,7 @@ const getRandomQuestion = (topic) => {
   let questionTopic = topic.toLowerCase();
 
   // Проверяем является ли тема - случайной.
-  if (questionTopic == "случайный вопрос") {
+  if (questionTopic == "random question") {
     // Получаем случайную тему по ключу.
     questionTopic =
       Object.keys(questions)[
